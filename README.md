@@ -1,30 +1,7 @@
-==================================================================================
-BDD Cucumber Selenium Webdriver Appium Rest-Assured Java Test Automation Framework
-==================================================================================
-This project is a template test automation framework, which provides structured and standard way of 
-creating automated test scripts for GUI, Mobile and API level tests across projects  
+Framework Scope -
 
-This is a reusable automation framework that blends together Selenium WebDriver, Appium, Android Driver, RestEasy, SauceLabs and Cucumber JVM (incorporating Gherkin and the BDD 'Given, When Then' testing construct)   
-
-This framework supports automation of : - 
-*Web Browsers (Firefox, Chrome, Internet Explorer, Safari)  
-*Web Browser Responsive Design with view ports configuration  
-*Mobile Automation on Emulated and Physical Devices, for Native, Hybrid, and Web App  
-*Mobile Automation on Cloud using SauceLabs
-  
-
-The framework incorporates design principle of BDD (Behaviour driven development) which promotes
- writing acceptance tests by describing behaviour of application under test in simple english language from
- the perspective of its stakeholders. 
- Having test written in Natural language helps the Project Team 
- (Product Owners, Business Analysts, Development and QA team) to understand and track the requirements
- 
-Supports Custom Page Object model which represents the screens of AUT as a series of objects and 
-encapsulates the fields represented by a page which ultimately avoids duplication and improves code maintainability and readability.  
-    
-Sonar Continuous Code Quality Management: -
-conventions (Checkstyle), bad practices (PMD) and potential bugs (FindBugs).
-
+This project serves as a template for a test automation framework designed to create automated test scripts systematically for GUI, Mobile, and API testing across various projects.
+It is a reusable automation framework that seamlessly integrates Selenium WebDriver, Appium, Android Driver, RestEasy, SauceLabs, and Cucumber JVM. The framework utilizes Gherkin syntax and adheres to the BDD (Behavior-Driven Development) principles, employing the 'Given, When, Then' testing format for enhanced clarity and organization in test scenarios.
 
 Tools & libraries
 =================
@@ -58,6 +35,7 @@ The test automation framework is comprised of following tools and libraries
 Test Automation framework support
 -----------------------------------------
 Name - Naga
+email - nagaraju.pullagila@gmail.com
 
 
 Machine Configuration
@@ -88,9 +66,9 @@ File >> Setting >> Plugins >> Browser Repositories>
 *Cucumber for Java
 *Gherkin
 *lombok
-*Git Integration/ SVN Integration  
+*Git Integration
 *Maven Integration
-*SonarQube (optional)
+
 
 Eclipse plugins  
 ----------------
@@ -109,7 +87,7 @@ Follow the Installation Steps
 
 *Git Integration
 
-*SonarQube (optional)
+
 
 Plugin configuration for Cucumber Feature
 Open Run Configurations
